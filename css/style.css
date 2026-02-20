@@ -657,6 +657,7 @@ footer .container div ul li::marker {
   justify-content: space-between;
   height: 100%;
   width: 100%;
+  padding-bottom: 30px;
 }
 .slide-cart .container > .head {
   display: flex;
