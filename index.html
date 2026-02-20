@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-7.1.0-web/fontawesome-free-7.1.0-web/css/all.min.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="./swiper-12.0.3/package/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <!-- S -->
+    <div class="main relative mt-[200px]">
+      <!-- S Header-->
+      <header>
+        <!-- S Header Top -->
+        <div
+          class="header-top max-lg:!mb-[60px] max-lg:flex max-lg:flex-wrap max-lg:!mb-14">
+          <div class="logo">
+            <img src="./Ecommerce Website/img/logo.png" alt="" />
+          </div>
+          <!-- S -->
+          <div
+            class="search-products max-lg:order-3 max-lg:w-full max-lg:flex max-lg:justify-center">
+            <div class="selec-cont">
+              <select
+                name="ctategory"
+                id="categories"
+                class="max-lg:!text-[14px]">
+                <option disabled selected>All Categories</option>
+                <option value="Electronics & Digits">
+                  Electronics & Digits
+                </option>
+                <option value="Phones & Tablety">Phones & Tablety</option>
+                <option value="Fashion & Clothing">Fashion & Clothing</option>
+                <option value="Telivsion & Monitor">Telivsion & Monitor</option>
+                <option value="Jewelry & Watches">Jewelry & Watches</option>
+                <option value="WAshing Machine">WAshing Machine</option>
+                <option value="Toys & Hobbies">Toys & Hobbies</option>
+              </select>
+            </div>
+            <!-- S -->
+            <div class="search-inputs">
+              <input
+                type="text"
+                name="search"
+                placeholder="Search For Products" />
+
+              <button class="submit">
+                <i class="fas fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <!-- E -->
+          </div>
+          <!-- S -->
+          <div class="save-products">
+            <a href=""><i class="fa-regular fa-heart"></i> <span>0</span></a>
+            <a href=""
+              ><i class="fa-solid fa-cart-shopping"></i> <span>0</span></a
+            >
+          </div>
+          <!-- E -->
+          <!-- E -->
+        </div>
+        <!-- E Header Top -->
+        <!-- S Header Bottom -->
+        <div class="header-bottom max-lg:!mx-auto max-lg:!mt-[50px]">
+          <div>
+            <div>
+              <span
+                class="nav-menu text-[20px] hidden max-lg:block max-lg:cursor-pointer"
+                ><i class="fas fa-bars"></i
+              ></span>
+              <div
+                class="category-nav max-lg:!w-[200px] max-lg:!text-[14px] max-lg:!gap-[10px]">
+                <div class="drop">
+                  <i class="fas fa-bars"></i>
+                  <p>Browse Category</p>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <ul class="drop-down max-lg:!text-[12px]">
+                  <li>Top 10 Others</li>
+                  <li>Electronics & Digits</li>
+                  <li>Phones & Tablety</li>
+                  <li>Fashion & Clothing</li>
+                  <li>Telivsion & Monitor</li>
+                  <li>Jewelry & Watches</li>
+                  <li>Washing Machine</li>
+                  <li>Toys & Hobbies</li>
+                </ul>
+              </div>
+              <nav
+                class="links max-lg:fixed max-lg:w-[375px] max-lg:top-0 max-lg:h-full max-lg:bg-white max-lg:flex-col max-lg:items-center max-lg:!gap-[20px] max-lg:!pt-[50px] max-lg:z-100">
+                <span
+                  class="close-menu remove hidden cursor-pointer max-lg:block max-lg:absolute max-lg:top-[10px] max-lg:right-[20px] pointer"
+                  ><i
+                    class="fa-regular fa-circle-xmark max-lg:text-[20px] max-lg:cursor-pointer"></i
+                ></span>
+                <a href="" class="max-lg:w-fit mx-auto home">Home</a>
+                <a href="" class="max-lg:w-fit mx-auto about">About</a>
+                <a href="" class="max-lg:w-fit mx-auto accesories"
+                  >Accesories</a
+                >
+                <a href="" class="max-lg:w-fit mx-auto blog">Blog</a>
+                <a href="" class="max-lg:w-fit mx-auto cobtact">Contact</a>
+              </nav>
+            </div>
+            <div class="log">
+              <div class="log-in">
+                Login
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+              </div>
+              <div class="sign-up">
+                Sign Up
+                <i class="fa-solid fa-user-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- E Header Bootom -->
+      </header>
+      <!-- E Header -->
+      <!-- Start Section Scrooling -->
+      <section class="scrolling">
+        <div class="left Swiper">
+          <div class="imgs swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./Ecommerce Website/img/banner_home1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Ecommerce Website/img/banner_home2.png" alt="" />
+            </div>
+          </div>
+          <div class="left-pag swiper-pagination"></div>
+        </div>
+        <div class="right">
+          <img src="./Ecommerce Website/img/banner_home3.png" alt="" />
+        </div>
+      </section>
+      <!-- End Section Scrooling -->
+
+      <!-- Start Section Offers -->
+      <section class="offers">
+        <div>
+          <a href="" class="link-btn"></a>
+          <img src="./Ecommerce Website/img/banner3_1.png" alt="" />
+          <div class="description">
+            <p>Break Disc deals on this</p>
+            <div class="sale">
+              <span
+                >UP <br />
+                To</span
+              >
+              <span class="percent">70%</span>
+            </div>
+            <p class="shop">Shop Now</p>
+          </div>
+        </div>
+        <div>
+          <a href="" class="link-btn"></a>
+          <img src="./Ecommerce Website/img/banner3_2.png" alt="" />
+          <div class="description">
+            <p>Break Disc deals on this</p>
+            <div class="sale">
+              <span
+                >UP <br />
+                To</span
+              >
+              <span class="percent">70%</span>
+            </div>
+            <p class="shop">Shop Now</p>
+          </div>
+        </div>
+        <div>
+          <a href="" class="link-btn"></a>
+          <img src="./Ecommerce Website/img/banner3_3.png" alt="" />
+          <div class="description">
+            <p>Break Disc deals on this</p>
+            <div class="sale">
+              <span
+                >UP <br />
+                To</span
+              >
+              <span class="percent">70%</span>
+            </div>
+            <p class="shop">Shop Now</p>
+          </div>
+        </div>
+        <div>
+          <a href="" class="link-btn"></a>
+          <img src="./Ecommerce Website/img/banner3_4.png" alt="" />
+          <div class="description">
+            <p>Break Disc deals on this</p>
+            <div class="sale">
+              <span
+                >UP <br />
+                To</span
+              >
+              <span class="percent">70%</span>
+            </div>
+            <p class="shop">Shop Now</p>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Offers -->
+
+      <!-- Start Section Hot Deals -->
+      <section class="slider_products slide">
+        <div class="containerr">
+          <div class="slide_product Swiper">
+            <div class="top-slide">
+              <h2><i class="fa-solid fa-tags"></i> Hot Deals</h2>
+            </div>
+            <div class="products swiper-wrapper hot-deals">
+              <!-- <div class="swiper-slide product">
+                <span class="sale-perc">50%</span>
+                <img src="./Ecommerce Website/img/product/0.png" alt="" />
+                <div class="txt">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="title">
+                    Ifinix Smart Quality White 4GB RAM, 64GB Storage
+                  </div>
+                  <div class="price"><span>$320</span><span>$600</span></div>
+                  <div class="cart">
+                    <button class="add-to-cart">
+                      <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                    </button>
+                    <div class="love"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Hot Deals -->
+
+      <!-- Start Home Banner -->
+      <div class="banner-box">
+        <div class="container">
+          <div>
+            <img src="./Ecommerce Website/img/banner_box4.jpg" alt="" />
+          </div>
+          <div>
+            <img src="./Ecommerce Website/img/banner_box5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End Home Banner -->
+
+      <!-- Start Electronics Category -->
+      <section class="slider_products slide">
+        <div class="containerr">
+          <div class="slide_product Swiper">
+            <div class="top-slide">
+              <h2>
+                <i class="fa-solid fa-tachograph-digital"></i> Electronics
+              </h2>
+            </div>
+            <div class="products swiper-wrapper electronics">
+              <!-- <div class="swiper-slide product">
+                <span class="sale-perc">50%</span>
+                <img src="./Ecommerce Website/img/product/0.png" alt="" />
+                <div class="txt">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="title">
+                    Ifinix Smart Quality White 4GB RAM, 64GB Storage
+                  </div>
+                  <div class="price"><span>$320</span><span>$600</span></div>
+                  <div class="cart">
+                    <button class="add-to-cart">
+                      <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                    </button>
+                    <div class="love"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Electronics Category -->
+
+      <!-- Start Appliances Category -->
+      <section class="slider_products slide">
+        <div class="containerr">
+          <div class="slide_product Swiper">
+            <div class="top-slide">
+              <h2><i class="fa-solid fa-kitchen-set"></i> Appliances</h2>
+            </div>
+            <div class="products swiper-wrapper appliances">
+              <!-- 
+              <div class="swiper-slide product">
+                <span class="sale-perc">50%</span>
+                <img src="./Ecommerce Website/img/product/0.png" alt="" />
+                <div class="txt">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="title">
+                    Ifinix Smart Quality White 4GB RAM, 64GB Storage
+                  </div>
+                  <div class="price"><span>$320</span><span>$600</span></div>
+                  <div class="cart">
+                    <button class="add-to-cart">
+                      <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                    </button>
+                    <div class="love"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Appliances Category -->
+
+      <!-- Start Home Banner2 -->
+      <div class="banner-box box2">
+        <div class="container cont2">
+          <div>
+            <img src="./Ecommerce Website/img/banner_box1.jpg" alt="" />
+          </div>
+          <div>
+            <img src="./Ecommerce Website/img/banner_box2.jpg" alt="" />
+          </div>
+          <div>
+            <img src="./Ecommerce Website/img/banner_box3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End Home Banner2 -->
+
+      <!-- Start Mobiles Category -->
+      <section class="slider_products slide">
+        <div class="containerr">
+          <div class="slide_product Swiper">
+            <div class="top-slide">
+              <h2><i class="fa-solid fa-mobile-screen"></i> Mobiles</h2>
+            </div>
+            <div class="products swiper-wrapper mobiles">
+              <!-- 
+              <div class="swiper-slide product">
+                <span class="sale-perc">50%</span>
+                <img src="./Ecommerce Website/img/product/0.png" alt="" />
+                <div class="txt">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="title">
+                    Ifinix Smart Quality White 4GB RAM, 64GB Storage
+                  </div>
+                  <div class="price"><span>$320</span><span>$600</span></div>
+                  <div class="cart">
+                    <button class="add-to-cart">
+                      <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                    </button>
+                    <div class="love"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Mobiles Category -->
+
+      <!-- Start Footer -->
+      <footer>
+        <div class="container">
+          <div class="logo">
+            <img src="./Ecommerce Website/img/logo-black.png" alt="" />
+            <p>Aspernatur, quasi expedita veniam! Explicabo.</p>
+            <div class="links">
+              <div><i class="fa-solid fa-phone"></i></div>
+              <div><i class="fa-brands fa-facebook-f"></i></div>
+              <div><i class="fa-brands fa-x-twitter"></i></div>
+              <div><i class="fa-solid fa-phone"></i></div>
+            </div>
+          </div>
+          <div>
+            <h2>Find It Fast</h2>
+            <ul>
+              <li>Labtops & Computers</li>
+              <li>Smart Phones & Tablets</li>
+              <li>TV & Audio</li>
+              <li>Appliances</li>
+              <li>Journey & Watches</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Quick Links</h2>
+            <ul>
+              <li>Labtops & Computers</li>
+              <li>Smart Phones & Tablets</li>
+              <li>TV & Audio</li>
+              <li>Appliances</li>
+              <li>Journey & Watches</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Services us</h2>
+            <ul>
+              <li>Labtops & Computers</li>
+              <li>Smart Phones & Tablets</li>
+              <li>TV & Audio</li>
+              <li>Appliances</li>
+              <li>Journey & Watches</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <div>
+              Copyright © <span class="year"></span> Website by
+              <span>Gamal Abd Elnaser</span>
+            </div>
+            <div>
+              <img src="./Ecommerce Website/img/payment_method.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+
+      <!-- Start Slide Carts -->
+      <div class="slide-cart hide-slide-cart">
+        <div class="container">
+          <div class="head">
+            <div>Cart Items: <span class="num-items">0</span></div>
+            <div class="clear-all">Clear All</div>
+            <div class="close-item remove">
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+          </div>
+
+          <div class="cart-aitems">
+            <!-- 
+        <div class="container">
+          <div class="productt"><img src="./Ecommerce Website/${element.img}" alt=""></div>
+          <div class="info">
+            <h2>${element.name}</h2>
+            <p class="salary">${element.price}$</p>
+            <div class="quntity">
+              <span class="increase">+</span>
+              <span class="count">0</span>
+              <span class="decrease">-</span>
+            </div>
+          </div>
+          <div class="remove"><i class="fa-solid fa-trash-can"></i></div>
+        </div> -->
+          </div>
+
+          
+
+          <div class="foot">
+            <div><span>Subtotal</span> <span class="total-price">0$</span></div>
+            <div>
+              <a href="checkout.html" target="_blank" id="check-out"
+                >Checkout</a
+              >
+              <a class="shop-more">Shop More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Slide Carts -->
+    </div>
+    <!-- E -->
+
+    <!-- Swiper JS -->
+    <script src="./swiper-12.0.3/package/swiper-bundle.min.js"></script>
+
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+
+    <!-- JS Swiper -->
+    <script src="./js/swiper.js"></script>
+  </body>
+</html>

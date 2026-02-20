@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-7.1.0-web/fontawesome-free-7.1.0-web/css/all.min.css" />
+    <!-- Swiper CSS -->
+
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Checkout</title>
+  </head>
+  <body>
+    <!-- S -->
+    <div class="main relative mt-[200px]">
+      <!-- S Header-->
+      <header>
+        <!-- S Header Top -->
+        <div
+          class="header-top max-lg:!mb-[60px] max-lg:flex max-lg:flex-wrap max-lg:!mb-14">
+          <div class="logo">
+            <img src="./Ecommerce Website/img/logo.png" alt="" />
+          </div>
+          <!-- S -->
+          <div
+            class="search-products max-lg:order-3 max-lg:w-full max-lg:flex max-lg:justify-center">
+            <div class="selec-cont">
+              <select
+                name="ctategory"
+                id="categories"
+                class="max-lg:!text-[14px]">
+                <option disabled selected>All Categories</option>
+                <option value="Electronics & Digits">
+                  Electronics & Digits
+                </option>
+                <option value="Phones & Tablety">Phones & Tablety</option>
+                <option value="Fashion & Clothing">Fashion & Clothing</option>
+                <option value="Telivsion & Monitor">Telivsion & Monitor</option>
+                <option value="Jewelry & Watches">Jewelry & Watches</option>
+                <option value="WAshing Machine">WAshing Machine</option>
+                <option value="Toys & Hobbies">Toys & Hobbies</option>
+              </select>
+            </div>
+            <!-- S -->
+            <div class="search-inputs">
+              <input
+                type="text"
+                name="search"
+                placeholder="Search For Products" />
+
+              <button class="submit">
+                <i class="fas fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <!-- E -->
+          </div>
+          <!-- E -->
+        </div>
+        <!-- E Header Top -->
+        <!-- S Header Bottom -->
+        <div class="header-bottom max-lg:!mx-auto max-lg:!mt-[50px]">
+          <div>
+            <div>
+              <span
+                class="nav-menu text-[20px] hidden max-lg:block max-lg:cursor-pointer"
+                ><i class="fas fa-bars"></i
+              ></span>
+              <div
+                class="category-nav max-lg:!w-[200px] max-lg:!text-[14px] max-lg:!gap-[10px]">
+                <div class="drop">
+                  <i class="fas fa-bars"></i>
+                  <p>Browse Category</p>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <ul class="drop-down max-lg:!text-[12px]">
+                  <li>Top 10 Others</li>
+                  <li>Electronics & Digits</li>
+                  <li>Phones & Tablety</li>
+                  <li>Fashion & Clothing</li>
+                  <li>Telivsion & Monitor</li>
+                  <li>Jewelry & Watches</li>
+                  <li>Washing Machine</li>
+                  <li>Toys & Hobbies</li>
+                </ul>
+              </div>
+              <nav
+                class="links max-lg:fixed max-lg:w-[375px] max-lg:top-0 max-lg:h-full max-lg:bg-white max-lg:flex-col max-lg:items-center max-lg:!gap-[20px] max-lg:!pt-[50px] max-lg:z-100">
+                <span
+                  class="close-menu hidden cursor-pointer max-lg:block max-lg:absolute max-lg:top-[10px] max-lg:right-[20px] pointer"
+                  ><i
+                    class="fa-regular fa-circle-xmark max-lg:text-[20px] max-lg:cursor-pointer"></i
+                ></span>
+                <a href="" class="max-lg:w-fit mx-auto home">Home</a>
+                <a href="" class="max-lg:w-fit mx-auto about">About</a>
+                <a href="" class="max-lg:w-fit mx-auto accesories"
+                  >Accesories</a
+                >
+                <a href="" class="max-lg:w-fit mx-auto blog">Blog</a>
+                <a href="" class="max-lg:w-fit mx-auto cobtact">Contact</a>
+              </nav>
+            </div>
+            <div class="log">
+              <div class="log-in">
+                Login
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+              </div>
+              <div class="sign-up">
+                Sign Up
+                <i class="fa-solid fa-user-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- E Header Bootom -->
+      </header>
+      <!-- E Header -->
+      <section class="check-out">
+        <div class="container">
+          <div class="order-summary">
+            <h2>Order Summary</h2>
+
+            <div class="frame-container">
+              <!-- <div class="container">
+                <div class="productt">
+                  <img src="./Ecommerce Website/img/product/16.png" alt="" />
+                </div>
+                <div class="info">
+                  <h2>
+                    Washing Machine 959 Series 8kg Senator Aqua SX, Silver
+                  </h2>
+                  <p class="salary">1800$</p>
+                  <div class="quntity">
+                    <span class="increase">+</span>
+                    <span class="count">3</span>
+                    <span class="decrease">-</span>
+                  </div>
+                </div>
+                <div class="remove"><i class="fa-solid fa-trash-can"></i></div>
+              </div> -->
+            </div>
+
+            
+
+            <div class="salaries">
+              <div class="sub-total">
+                <p>Subtotal:</p>
+                <p class="sub-salary">$ 1180</p>
+              </div>
+              <div class="shipping">
+                <p>Shipping:</p>
+                <p class="shipping-salary">$20.00</p>
+              </div>
+              <div class="total">
+                <p>Total:</p>
+                <p class="total-price">$ 1180</p>
+              </div>
+              <div class="order">Place Order</div>
+            </div>
+          </div>
+
+          <div class="request">
+            <div class="head">Delivery Address</div>
+            <form action="">
+              <div class="email">
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter Your Email" />
+              </div>
+              <div class="name">
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter Your Name" />
+              </div>
+              <div class="adderss">
+                <label for="">Address</label>
+                <input type="text" placeholder="Enter Your Address" />
+              </div>
+              <div class="phone">
+                <label for="">Phone</label>
+                <input type="text" placeholder="Enter Your Phone" />
+              </div>
+            </form>
+            <div class="coupon-code">
+              <div class="head">Coupon Code</div>
+              <div class="coupon">
+                <label for="">Coupon Code</label>
+                <input type="text" placeholder="Enter Your Coupon Code" />
+              </div>
+              <div class="apply">Apply Coupon</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Footer -->
+      <footer>
+        <div class="container">
+          <div class="logo">
+            <img src="./Ecommerce Website/img/logo-black.png" alt="" />
+            <p>Aspernatur, quasi expedita veniam! Explicabo.</p>
+            <div class="links">
+              <div><i class="fa-solid fa-phone"></i></div>
+              <div><i class="fa-brands fa-facebook-f"></i></div>
+              <div><i class="fa-brands fa-x-twitter"></i></div>
+              <div><i class="fa-solid fa-phone"></i></div>
+            </div>
+          </div>
+          <div>
+            <h2>Find It Fast</h2>
+            <ul>
+              <li>Labtops & Computers</li>
+              <li>Smart Phones & Tablets</li>
+              <li>TV & Audio</li>
+              <li>Appliances</li>
+              <li>Journey & Watches</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Quick Links</h2>
+            <ul>
+              <li>Labtops & Computers</li>
+              <li>Smart Phones & Tablets</li>
+              <li>TV & Audio</li>
+              <li>Appliances</li>
+              <li>Journey & Watches</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Services us</h2>
+            <ul>
+              <li>Labtops & Computers</li>
+              <li>Smart Phones & Tablets</li>
+              <li>TV & Audio</li>
+              <li>Appliances</li>
+              <li>Journey & Watches</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <div>
+              Copyright © <span class="year"></span> Website by
+              <span>Gamal Abd Elnaser</span>
+            </div>
+            <div>
+              <img src="./Ecommerce Website/img/payment_method.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- E -->
+
+    <!-- JS -->
+    <script src="./js/checkout.js"></script>
+  </body>
+</html>
